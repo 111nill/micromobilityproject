@@ -1,0 +1,137 @@
+#aboutus {
+  width: 100%;
+}
+
+.aboutus__intro {
+  background: #ffffff;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aboutus__img {
+  width: 80%;
+}
+
+.aboutus__img img {
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+.aboutus__title {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+.aboutus__title p {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.aboutus__contents {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+
+.aboutus__contents p {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.member {
+  background: #30336b;
+  padding: 5rem;
+  display: block;
+}
+
+.member__title {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.member__title span {
+  font-family: "Libre Franklin";
+  font-size: 8rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #f9ca24;
+  text-transform: uppercase;
+}
+.member .member__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.member .pm,
+.member .mc,
+.member .ee {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  display: inline-block;
+}
+
+.pm .pm__job,
+.mc .mc__job,
+.ee .ee__job {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.pm .pm__job span,
+.mc .mc__job span,
+.ee .ee__job span {
+  text-align: center;
+  color: #f6e58d;
+  font-family: "BenchNine";
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.pm .pm__intro,
+.mc .mc__intro,
+.ee .ee__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+.pm .pm__img img,
+.mc .mc__img img,
+.ee .ee__img img {
+  width: 12rem;
+}
+
+.pm .pm__title,
+.mc .mc__title,
+.ee .ee__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pm__title > div,
+.mc__title > div,
+.ee__title > div {
+  font-size: 2rem;
+  line-height: 1.8;
+  font-family: "Noto Sans KR";
+  font-weight: 700;
+  color: #fff;
+}
+
+.mc .mc__column,
+.ee .ee__column {
+  display: flex;
+}
+
+/* aboutus 끝 */

@@ -1,0 +1,40 @@
+.records {
+  width: 100%;
+  height: auto;
+  padding: 10rem;
+  background: #2ebaee;
+}
+
+.records__title span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.records__title span:first-child {
+  font-family: "BenchNine";
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.records__title span:last-child {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 6rem;
+  color: #fcfcfc;
+}
+
+.records__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  margin-top: 10rem;
+}
+
+.records .records__record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid yellow;
+}

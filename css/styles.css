@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "header.css";
+@import "aboutus.css";
+@import "records.css";
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
