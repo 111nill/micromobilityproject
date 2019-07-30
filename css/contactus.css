@@ -1,0 +1,54 @@
+.contactus {
+  width: 100vw;
+  height: 70vh;
+  padding: 5rem;
+  padding-top: 10rem;
+  background-color: #fff;
+}
+
+.contactus__wrapper {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.contactus__subtitle {
+  font-family: "BenchNine", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: #27aee8;
+  font-size: 2rem;
+}
+
+.contactus__title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: left;
+  color: #133f7f;
+  font-size: 4rem;
+}
+
+.contactus__text {
+  font-family: "Noto Serif KR", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 2.5rem 0rem 1rem 0rem;
+  color: #535c68;
+}
+
+.contactus .contactus__icon {
+  margin-top: 2.5rem;
+}
+
+.contactus__icon .contactus__mail {
+  background: #f2f2f2;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 1.25rem;
+  font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #30336b;
+}

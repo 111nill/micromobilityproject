@@ -129,6 +129,11 @@
   color: #fff;
 }
 
+.social i {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
 .mc .mc__column,
 .ee .ee__column {
   display: flex;

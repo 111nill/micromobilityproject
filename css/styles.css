@@ -2,6 +2,8 @@
 @import "header.css";
 @import "aboutus.css";
 @import "records.css";
+@import "contactus.css";
+@import "footer.css";
 * {
   box-sizing: border-box;
 }

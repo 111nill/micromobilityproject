@@ -1,0 +1,24 @@
+.social-ic {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #130f40;
+}
+
+.ic i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.ic a {
+  text-decoration: none;
+}
+
+.ic a:visited {
+  color: #fff;
+}
+.social-ic .social-instagram {
+  margin-right: 10rem;
+}
