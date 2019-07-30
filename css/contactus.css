@@ -52,3 +52,7 @@
   text-decoration: none;
   color: #30336b;
 }
+
+.contactus__icon .contactus__mail a {
+  cursor: pointer;
+}
