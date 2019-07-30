@@ -1,0 +1,185 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .header .header__text {
+    font-size: 3.25rem;
+  }
+  /* header */
+
+  .aboutus__img {
+    width: 100%;
+    padding: 0rem 3rem;
+  }
+
+  .aboutus__title {
+    width: 100%;
+  }
+  .aboutus__title p {
+    font-size: 2.5rem !important;
+  }
+
+  .aboutus__contents p {
+    font-size: 1.6rem !important;
+    padding: 0rem 1rem;
+  }
+  /* about us*/
+
+  .member {
+    width: 100%;
+    padding: 10rem 0rem;
+  }
+
+  .member__title {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .member__title span {
+    font-size: 4rem;
+  }
+  .member .member__wrapper {
+    display: block;
+    text-align: center;
+  }
+  .pm,
+  .mc,
+  .ee {
+    display: flex;
+    width: 80%;
+  }
+  .pm,
+  .mc {
+    margin-bottom: 5rem;
+  }
+
+  .pm .pm__intro,
+  .mc .mc__intro,
+  .ee .ee__intro {
+    display: flex;
+    flex-direction: row;
+  }
+  .mc .mc__column,
+  .ee .ee__column {
+    display: block;
+  }
+
+  .mc .mc__intro:first-child,
+  .ee .ee__intro:first-child {
+    margin-bottom: 3rem;
+  }
+  .mc .mc__whattodo,
+  .ee .ee__whattodo,
+  .pm .pm__whattodo {
+    font-size: 1.3rem;
+  }
+
+  /*member end*/
+  .records {
+    padding: 7rem 0.5rem;
+  }
+  .records__title span {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .records__title span:first-child {
+    font-family: "BenchNine";
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .records__title span:last-child {
+    font-family: "Libre Franklin";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4.5rem;
+    color: #fcfcfc;
+  }
+
+  .records__wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .records .records__record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  /* records end*/
+
+  .contactus {
+    padding: 5rem 0.5rem;
+    margin-bottom: 5rem;
+  }
+  .contactus__wrapper {
+    max-width: 100%;
+    padding: 10rem 3rem 0 3rem;
+  }
+
+  .contactus__subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .contactus__title {
+    font-size: 2.1rem;
+  }
+
+  .contactus__text {
+    font-family: "Noto Serif KR", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2.5rem 0rem 1rem 0rem;
+    line-height: 160%;
+    color: #535c68;
+  }
+
+  .contactus__icon .contactus__mail {
+    background: #f2f2f2;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 1.25rem;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #30336b;
+  }
+
+  /* footer */
+
+  .social-ic {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #130f40;
+  }
+
+  .ic i {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .ic a {
+    text-decoration: none;
+  }
+
+  .ic a:visited {
+    color: #fff;
+  }
+
+  .social-ic .social-instagram {
+    margin-right: 0;
+  }
+}
